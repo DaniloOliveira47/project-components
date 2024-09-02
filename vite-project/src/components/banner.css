@@ -1,0 +1,52 @@
+.bannerContainer{
+   text-align: center;
+   padding: 20px;
+   background-color: #D6EFD8;
+   
+   border-top: 1px solid #364e35;
+   border-bottom: 1px solid #364e35;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    color: #1A5319;
+}
+p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;  
+   
+}
+.card{
+    background-color: #1A5319;
+    padding: 10px;
+    border-radius: 10px;
+    border: black 1px solid;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.4);
+}
+.card h2{
+    color: #D6EFD8;
+    font-weight: 500;
+}
+.area{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #508D4E;
+    border-radius: 10px;
+}
